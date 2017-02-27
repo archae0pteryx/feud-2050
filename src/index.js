@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom'
 import Layout from './components/layout'
 import { Provider } from 'react-redux'
 import store from './redux/store'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'font-awesome/css/font-awesome.min.css'
 import './assets/css/index.css'
 
 const app = document.getElementById('root')
