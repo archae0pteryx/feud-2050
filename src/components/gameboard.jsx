@@ -1,6 +1,5 @@
 import React from 'react'
 import Editor from './editor'
-// import {db} from '../fire'
 import '../assets/css/gameboard.css'
 export default class extends React.Component {
   render() {
