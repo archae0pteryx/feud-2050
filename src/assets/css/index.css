@@ -21,4 +21,5 @@ html, body {
   font-family: 'Poiret One', cursive;
   background: var(--primary-bg);
   color: var(--primary-color);
+  text-align: center;
 }

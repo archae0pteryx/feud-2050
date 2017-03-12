@@ -1,9 +1,12 @@
 import React from 'react'
-import '../assets/css/header.css'
+import '../assets/css/head.css'
 export default class extends React.Component {
   render() {
     return (
-      <h1 className="title top-padding bottom-padding">Feud 2050</h1>
+      <div>
+        <h1 className="head">Feud 2050</h1>
+        <p className="sub-head">dolphin lazers</p>
+      </div>
     )
   }
 }
