@@ -1,44 +1,60 @@
 import React from 'react'
+import Questions from './questions'
+import { db } from '../fire'
+
 export default class extends React.Component {
-    constructor(props) {
+  constructor(props) {
     super(props)
-    console.log("constructing")
+    this.fbRef = db.ref('feud/questions')
     this.state = {
-      value: '',
-      questions: []
+      questions: [],
+      text: ''
     }
+  }
+  componentWillMount(fbRef) {
+    this.fbRef.on('value', (snap) => {
+      let questions = []
+      snap.forEach((childSnap) => {
+        const question = childSnap.val()
+        question['.key'] = childSnap.key
+        questions.push(question)
+      })
+      this.setState({ questions: questions })
+    })
+  }
+  componentWillUnmount() {
+    this.fbRef.off()
   }
   handleChange(e) {
     this.setState({
-      value: e.target.value,
+      text: e.target.value,
     })
   }
+
   pushToBase(e) {
-    e.preventDefault()
-    const currentQs = this.state.questions
-    const newQs = currentQs.concat(this.state.value)
-    this.setState({
-      questions: newQs
-    })  
-    console.log("PUSHED")
+    e.preventDefault()  
+      this.fbRef.push({
+        text: this.state.text
+      })
+      this.setState({
+        text: ''
+      })
   }
   render() {
     return (
-        <div className="container padd">
-            <div className="input-group">
-            <input 
-              className="form-control"
-              onChange={this.handleChange.bind(this)}
-              value={this.state.value}
-              />
-            <button onClick={this.pushToBase.bind(this)} className="btn btn-primary">push</button>
-            </div>
-          <div className="container padd">
-              <ul>
-                {this.state.questions.map((i)=> <li key={i}>{i}</li>)}
-              </ul>
-          </div>
+      <div className="container padd">
+        <div className="input-group">
+          <input
+            className="form-control"
+            onChange={this.handleChange.bind(this)}
+            value={this.state.text}
+          />
+          <button onClick={this.pushToBase.bind(this)} className="btn btn-primary">push</button>
         </div>
+        <div className="container padd">
+        <Questions questions={ this.state.questions }/>
+        </div>
+      </div>
     )
   }
 }
