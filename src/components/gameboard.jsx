@@ -1,5 +1,4 @@
 import React from 'react'
-import Editor from './editor'
 import '../assets/css/gameboard.css'
 export default class extends React.Component {
   render() {
@@ -17,7 +16,6 @@ export default class extends React.Component {
           </div>
         </div>
       </div>
-      <Editor />
       </div>
     )
   }

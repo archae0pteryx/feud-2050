@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from './components/header'
+import Nav from './components/nav'
 // import GameBoard from './components/gameboard'
 import './assets/css/layout.css'
 export default class extends React.Component {
@@ -8,6 +9,7 @@ export default class extends React.Component {
       <div className="container-fluid">
         <Header/>
         {this.props.children}
+        <Nav/>
       </div>
     )
   }

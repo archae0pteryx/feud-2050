@@ -52,7 +52,7 @@ export default class extends React.Component {
           <button onClick={this.pushToBase.bind(this)} className="btn btn-primary">push</button>
         </div>
         <div className="container padd">
-        <Questions questions={ this.state.questions }/>
+          <Questions questions={ this.state.questions }/>
         </div>
       </div>
     )
