@@ -1,11 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One|Sigmar+One');
+/*
+    font-family: 'Poiret One', cursive;
+    font-family: 'Sigmar One', cursive;
+*/
 :root {
-  --primarycolor: #1D2247;
-  --secondarycolor: #D4D4D4;
+  --primary-bg: #050F15;
+  --secondary-bg: #1D2247;
+  --primary-color: #C2E0F4;
+  --secondary-color: #85C1E9;
+  --flat-1: #FFE1AE;
+  --flat-2: #F9B32A;
+  --flat-3: #FD7150;
+  --flat-4: #FA4228;
+  --flat-5: #336E7B;
+  --flat-6: #3498DB;
 }
 html, body {
   margin: 0;
   padding: 0;
-  font-family: monospace;
-  background: var(--primarycolor);
-  color: var(--secondarycolor);
+  font-family: 'Poiret One', cursive;
+  background: var(--primary-bg);
+  color: var(--primary-color);
 }
