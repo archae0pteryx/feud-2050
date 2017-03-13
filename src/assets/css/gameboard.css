@@ -1,4 +1,5 @@
 .cell {
   background: var(--secondary-bg);
   padding: 2rem;
+  border: solid 4px var(--primary-bg);
 }
