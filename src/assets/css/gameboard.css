@@ -3,3 +3,8 @@
   padding: 2rem;
   border: solid 4px var(--primary-bg);
 }
+.cell:hover {
+  transition: all 1s;
+  color: aliceblue;
+  background: var(--flat-5);
+}
