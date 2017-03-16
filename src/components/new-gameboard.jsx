@@ -2,6 +2,9 @@ import React from 'react'
 import Square from './square'
 import '../assets/css/gameboard.css'
 export default class extends React.Component {
+  componentWillMount() {
+    this.setState({round: "Round 1"})
+  }
   render() {
     const answer1 = 'sample answer'
     const answer2 = 'sample answer 2'
@@ -10,6 +13,7 @@ export default class extends React.Component {
     const answer5 = 'sample answer 5'
     return (
       <div className="container-fluid">
+        <p className="sub-head">{this.state.round}</p>
         <div className="row">
           <Square answer={answer1} clicked={false} cellNum={1} surveyNum={666}/>
         </div>

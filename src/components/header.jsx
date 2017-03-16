@@ -5,7 +5,6 @@ export default class extends React.Component {
     return (
       <div>
         <h1 className="head">Feud 2050</h1>
-        <p className="sub-head">dolphin lazers</p>
       </div>
     )
   }
