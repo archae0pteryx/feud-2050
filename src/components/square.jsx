@@ -7,6 +7,9 @@ export default class extends React.Component {
     }
   }
   handleClick() {
+    if (this.state.clicked) {
+      this.setState({clicked: false})
+    }
     this.setState({clicked: true})
   }
   render() {
@@ -18,7 +21,7 @@ export default class extends React.Component {
               <h3>{this.props.answer}</h3>
             </div>
             <div className="col-sm-2 pull-right">
-              <h3 className="number-block">666</h3>
+              <h3 className="number-block">{this.props.surveyNum}</h3>
             </div>
           </div>
         </div>
@@ -30,7 +33,7 @@ export default class extends React.Component {
           onClick={this
           .handleClick
           .bind(this)}>
-          <h3>?</h3>
+        <h3>{this.props.cellNum}</h3>
         </div>
     )
   }

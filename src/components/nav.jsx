@@ -6,7 +6,8 @@ export default class extends React.Component {
     return (
       <div>
         <ul className="bottom-nav">
-          <li><IndexLink to="/">board</IndexLink></li>
+          <li><IndexLink to="/">intro</IndexLink></li>
+          <li><Link to="board">board</Link></li>
           <li><Link to="edit">edit</Link></li>
           <li><Link to="controller">control</Link></li>
         </ul>
