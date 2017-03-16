@@ -12,9 +12,17 @@ export default class extends React.Component {
       <div className="container-fluid">
         <div className="row">
           <Square answer={answer1} clicked={false}/>
+        </div>
+        <div className="row">
           <Square answer={answer2} clicked={false}/>
+        </div>
+        <div className="row">
           <Square answer={answer3} clicked={false}/>
+        </div>
+        <div className="row">
           <Square answer={answer4} clicked={false}/>
+        </div>
+        <div className="row">
           <Square answer={answer5} clicked={false}/>
         </div>
       </div>

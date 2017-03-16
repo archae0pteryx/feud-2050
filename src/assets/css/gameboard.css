@@ -8,3 +8,7 @@
   color: aliceblue;
   background: var(--flat-5);
 }
+
+.number-block {
+  color: var(--secondary-color);
+}
