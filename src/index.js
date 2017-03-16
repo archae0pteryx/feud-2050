@@ -1,7 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import Layout from './layout'
-import GameBoard from './components/gameboard'
+import NewGameBoard from './components/new-gameboard'
+import Controller from './components/controller'
 import Editor from './components/editor'
 import {Router, Route, IndexRoute, browserHistory} from 'react-router'
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -11,7 +12,8 @@ import './assets/css/index.css'
 ReactDOM.render( 
 <Router history={browserHistory}>
   <Route path="/" component={Layout}>
-    <IndexRoute component={GameBoard}/>
+    <IndexRoute component={NewGameBoard}/>
     <Route path="edit" component={Editor}/>
+    <Route path="controller" component={Controller}/>
   </Route>
-</Router>, document.getElementById('root'));
+</Router>, document.getElementById('root'))

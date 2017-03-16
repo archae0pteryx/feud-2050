@@ -8,6 +8,7 @@ export default class extends React.Component {
         <ul className="bottom-nav">
           <li><IndexLink to="/">board</IndexLink></li>
           <li><Link to="edit">edit</Link></li>
+          <li><Link to="controller">control</Link></li>
         </ul>
       </div>
     )

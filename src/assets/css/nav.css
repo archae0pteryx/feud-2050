@@ -19,3 +19,6 @@
   color: var(--flat-6);
   text-decoration: none;
 }
+.sound-btn {
+  margin: 1rem;
+}
