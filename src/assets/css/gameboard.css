@@ -8,7 +8,23 @@
   color: aliceblue;
   background: var(--flat-5);
 }
-
 .number-block {
   color: var(--secondary-color);
+}
+.p-round {
+  display: inline-block;
+  transform: translateY(-5px);
+}
+.round {
+  cursor: crosshair;
+}
+#prev {
+  padding: 1rem;
+  font-size: 2rem;
+  vertical-align: center;
+}
+#next {
+  padding: 1rem;
+  font-size: 2rem;
+  vertical-align: center;
 }
