@@ -7,7 +7,7 @@ export default class extends React.Component {
       <div>
         <div className="row">
           <div className="col">
-            <h3>{Round3.question}</h3>
+            <h3 className="question">{Round3.question}</h3>
           </div>
         </div>
         <div className="row">

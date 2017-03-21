@@ -133,7 +133,7 @@ export const Round6 = {
   ]
 }
 export const Round7 = {
-  question: "Where is the best placeto get drunk",
+  question: "Where is the best place to get drunk",
   answers: [
     {
       id: 1,
@@ -195,16 +195,93 @@ export const Round9 = {
     }
   ]
 }
+export const Round10 = {
+  question: "Name something you smoke",
+  answers: [
+    {
+      id: 1,
+      ans: "Weed"
+    }, {
+      id: 2,
+      ans: "Cigarettes"
+    }, {
+      id: 3,
+      ans: "Crack"
+    }, {
+      id: 4,
+      ans: "Salmon"
+    }, {
+      id: 5,
+      ans: "Dick"
+    }
+  ]
+}
+export const Round11 = {
+  question: "In L.A. County jail, word is you can trade 200 cigs for",
+  answers: [
+    {
+      id: 1,
+      ans: "Sex"
+    }, {
+      id: 2,
+      ans: "Alcohol / Drugs"
+    }, {
+      id: 3,
+      ans: "Food"
+    }, {
+      id: 4,
+      ans: "Stamps"
+    }, {
+      id: 5,
+      ans: "Protection"
+    }
+  ]
+}
+export const Round12 = {
+  question: "Name a reason it hurts when you pee",
+  answers: [
+    {
+      id: 1,
+      ans: "STD"
+    }, {
+      id: 2,
+      ans: "UTI"
+    }, {
+      id: 3,
+      ans: "Sex"
+    }, {
+      id: 4,
+      ans: "Yeast infection"
+    }, {
+      id: 5,
+      ans: "Cancer"
+    }
+  ]
+}
+export const Round13 = {
+  question: "Best food to eat whilst drunk",
+  answers: [
+    {
+      id: 1,
+      ans: "Pizza"
+    }, {
+      id: 2,
+      ans: "Tacos"
+    }, {
+      id: 3,
+      ans: "Fries / Tots"
+    }, {
+      id: 4,
+      ans: "Nachos"
+    }, {
+      id: 5,
+      ans: "Hamburger"
+    }
+  ]
+}
 
-// someone you wouldnt want to see nude",     "answers": []   },   "9": {     "question":
-// "Name something you smoke",     "answers": ["Weed", "Cigarettes", "Crack",
-// "Salmon", "Dick"]   },   "10": {     "question": "In L.A. County jail, word
-// is you can trade 200 cigs for...",     "answers": ["Sex", "Alcohol / Drugs",
-// "Food", "Stamps", "Protection"]   },   "11": {     "question": "Name a reason
-// it hurts when you pee",     "answers": ["STD", "UTI", "Sex", "Yeast
-// infection", "Cancer"]   },   "12": {     "question": "Best food to eat
-// drunk",     "answers": ["Pizza", "Tacos", "Fries / Tots", "Nachos",
-// "Hamburger"]   },   "13": {     "question": "Name a city you think is most
+
+// ""question": ,     "answers": []   },   "13": {     "question": "Name a city you think is most
 // visited in the U.S.",     "answers": ["NYC", "LA", "San Francisco",
 // "Portland", "Las Vegas"]   },   "14": {     "question": "Name something
 // sticky",     "answers": ["Semen", "Gum", "Honey", "Glue", "Situations"]   },

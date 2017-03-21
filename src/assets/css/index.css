@@ -26,7 +26,10 @@ html, body {
 .head {
   padding-top: 1rem;
 }
-
+.question {
+  padding: 1rem;
+  font-size: 3rem;
+}
 .cell {
   background: var(--secondary-bg);
   padding: 1rem;
