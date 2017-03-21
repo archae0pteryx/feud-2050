@@ -1,0 +1,24 @@
+{
+  "quesion": "Name something you eat after a strong tequila",
+  "answers": [{
+      "id": 1,
+      "ans": "Lime"
+    },
+    {
+      "id": 2,
+      "ans": "A meal"
+    },
+    {
+      "id": 3,
+      "ans": "Genitals"
+    },
+    {
+      "id": 4,
+      "ans": "More tequila"
+    },
+    {
+      "id": 5,
+      "ans": "Vomit"
+    }
+  ]
+}
