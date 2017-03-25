@@ -33,6 +33,7 @@ import Round28 from './components/rounds/round_28'
 import Round29 from './components/rounds/round_29'
 import Round30 from './components/rounds/round_30'
 import Controller from './components/controller'
+import Answers from './components/answers'
 import Intro from './components/intro'
 import {Router, Route, IndexRoute, browserHistory} from 'react-router'
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -43,6 +44,7 @@ ReactDOM.render(
 <Router history={browserHistory}>
   <Route path="/" component={Layout}>
       <IndexRoute component={Intro} /> 
+    <Route path="answers" component={Answers}/>
     <Route path="controller" component={Controller}/>
     <Route path="r1" component={Round1}/>
     <Route path="r2" component={Round2}/>

@@ -23,7 +23,7 @@ export const Round1 = {
   ]
 }
 export const Round2 = {
-   question: "Name something people do to sober up in a hurry",
+  question: "Name something people do to sober up in a hurry",
   answers: [
     {
     "id": 1,
