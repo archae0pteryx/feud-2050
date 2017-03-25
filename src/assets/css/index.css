@@ -32,6 +32,10 @@ html, body {
   background: transparent;
   color: aliceblue;
 }
+.dropdown-menu > li > a {
+  font-size: 0.7rem;
+
+}
 .head {
   padding-top: 1rem;
 }

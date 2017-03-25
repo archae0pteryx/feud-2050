@@ -428,36 +428,262 @@ export const Round20 = {
     }
   ]
 }
+export const Round21 = {
+  question: "A preformer or group whos epic-ness spans generations",
+  answers: [
+    {
+      id: 1,
+      ans: "Beatles"
+    }, {
+      id: 2,
+      ans: "Rolling Stones"
+    }, {
+      id: 3,
+      ans: "Led Zepplin"
+    }, {
+      id: 4,
+      ans: "Aerosmith"
+    }, {
+      id: 5,
+      ans: "Why is Jimi not on this list?!"
+    }
+  ]
+}
+export const Round22 = {
+  question: "Name something that comes in nuggets (other than your mom)",
+  answers: [
+    {
+      id: 1,
+      ans: "Chicken"
+    }, {
+      id: 2,
+      ans: "Gold"
+    }, {
+      id: 3,
+      ans: "Weed"
+    }, {
+      id: 4,
+      ans: "Poop"
+    }, {
+      id: 5,
+      ans: "Knowledge"
+    }
+  ]
+}
+export const Round23 = {
+  question: "Brands of expensive Alcohol",
+  answers: [
+    {
+      id: 1,
+      ans: "Patron"
+    }, {
+      id: 2,
+      ans: "Hennessy"
+    }, {
+      id: 3,
+      ans: "Grey Goose"
+    }, {
+      id: 4,
+      ans: "Johnney Walker"
+    }, {
+      id: 5,
+      ans: "Glennlevet"
+    }
+  ]
+}
+export const Round24 = {
+  question: "Something you dont want to hear after a one night stand",
+  answers: [
+    {
+      id: 1,
+      ans: "I have an STD", 
+    }, {
+      id: 2,
+      ans: "I'm preggers", 
+    }, {
+      id: 3,
+      ans: "Whats your name", 
+    }, {
+      id: 4,
+      ans: "I love you", 
+    }, {
+      id: 5,
+      ans: "Honey, im home"
+    }
+  ]
+}
+export const Round25 = {
+  question: "Name a type of fish people order at a fine resturaunt",
+  answers: [
+    {
+      id: 1,
+      ans: "Salmon",  
+    }, {
+      id: 2,
+      ans: "Tuna",  
+    }, {
+      id: 3,
+      ans: "Swordfish",  
+    }, {
+      id: 4,
+      ans: "Mahi Mahi",  
+    }, {
+      id: 5,
+      ans: "Halibut"
+    }
+  ]
+}
+export const Round26 = {
+  question: "According to Women: What is the most important element in a relationship",
+  answers: [
+    {
+      id: 1,
+      ans: "Trust",   
+    }, {
+      id: 2,
+      ans: "Communication",
+    }, {
+      id: 3,
+      ans: "Honesty",   
+    }, {
+      id: 4,
+      ans: "Penis size",   
+    }, {
+      id: 5,
+      ans: "Respect"
+    }
+  ]
+}
+export const Round27 = {
+  question: "Method for not drinking when you really want to",
+  answers: [
+    {
+      id: 1,
+      ans: "Call someone",   
+    }, {
+      id: 2,
+      ans: "Go to a meeting", 
+    }, {
+      id: 3,
+      ans: "Sex",   
+    }, {
+      id: 4,
+      ans: "Heroin",    
+    }, {
+      id: 5,
+      ans: "Steps" 
+    }
+  ]
+}
+export const Round28 = {
+  question: "Name a reason you get a new sponsor",
+  answers: [
+    {
+      id: 1,
+      ans: "They relapse", 
+    }, {
+      id: 2,
+      ans: "One of you moves",  
+    }, {
+      id: 3,
+      ans: "Lack of trust",    
+    }, {
+      id: 4,
+      ans: "Sponsor hits on me",     
+    }, {
+      id: 5,
+      ans: "They bang your S.O." 
+    }
+  ]
+}
+export const Round29 = {
+  question: "Best domestic beer",
+  answers: [
+    {
+      id: 1,
+      ans: "Budweiser",  
+    }, {
+      id: 2,
+      ans: "Coors",   
+    }, {
+      id: 3,
+      ans: "PBR",     
+    }, {
+      id: 4,
+      ans: "Rolling Rock",     
+    }, {
+      id: 5,
+      ans: "None"  
+    }
+  ]
+}
+export const Round30 = {
+  question: "Name a place you meet with your sponsor to do your steps",
+  answers: [
+    {
+      id: 1,
+      ans: "Their house",   
+    }, {
+      id: 2,
+      ans: "Coffee shop",    
+    }, {
+      id: 3,
+      ans: "Restaurant",      
+    }, {
+      id: 4,
+      ans: "Park",      
+    }, {
+      id: 5,
+      ans: "A meeting"  
+    }
+  ]
+}
+export const Round31 = {
+  question: "Name the best AA conf that has ever been attended",
+  answers: [
+    {
+      id: 1,
+      ans: "ACYPAA", 
+    }, {
+      id: 2,
+      ans: "WACYPAA", 
+    }, {
+      id: 3,
+      ans: "OSYPAA",  
+    }, {
+      id: 4,
+      ans: "ORCYPAA",                  
+    }, {
+      id: 5,
+      ans: "ICYPAA"  
+    }
+  ]
+}
+export const Round32 = {
+  question: "In one word, describe AA coffee",
+  answers: [
+    {
+      id: 1,
+      ans: "Strong",  
+    }, {
+      id: 2,
+      ans: "Cheap",  
+    }, {
+      id: 3,
+      ans: "Gross / shitty / terrible", 
+    }, {
+      id: 4,
+      ans: "Free"                   
+    }, {
+      id: 5,
+      ans: "Gateway-drug"  
+    }
+  ]
+}
 
 
-//: ,     "answers": []   },   "20": {     "question": "A
-// preformer or group whos epic-ness spans generations",     "answers":
-// ["Beatles", "Rolling Stones", "Led Zepplin", "Aerosmith", "Why is Jimi not on
-// this list?!"]   },   "21": {     "question": "Name something that comes in
-// nuggets (other than your mom)",     "answers": ["Chicken", "Gold", "Weed",
-// "Poop", "Knowledge"]   },   "22": {     "question": "Brands of expensive
-// Alcohol",     "answers": ["Patron", "Hennessy", "Grey Goose", "Johnney
-// Walker", "Glennlevet"]   },   "23": {     "question": "Something you dont
-// want to hear after a one night stand",     "answers": ["I have an STD", "I'm
-// preggers", "Whats your name", "I love you", "Honey, im home"]   },   "24": {
-//    "question": "Name a type of fish people order at a fine resturaunt",
-// "answers": ["Salmon", "Tuna", "Swordfish", "Mahi Mahi", "Halibut"]   },
-// "25": {     "question": "According to Women: What is the most important
-// element in a relationship",     "answers": ["Trust", "Communication",
-// "Honesty", "Penis size", "Respect"]   },   "26": {     "question": "Method
-// for not drinking when you really want to",     "answers": ["Call someone",
-// "Go to a meeting", "Sex", "Heroin", "Steps"]   },   "27": {     "question":
-// "Name a reason you get a new sponsor",     "answers": ["They relapse", "One
-// of you moves", "Lack of trust", "Sponsor hits on me", "They bang your S.O."]
-//  },   "28": {     "question": "Best domestic beer",     "answers":
-// ["Budweiser", "Coors", "PBR", "Rolling Rock", "None"]   },   "29": {
-// "question": "Name a place you meet with your sponsor to do your steps",
-// "answers": ["Their house", "Coffee shop", "Restaurant", "Park", "A meeting"]
-//  },   "30": {     "question": "Name the best AA conf that has ever been
-// attended",     "answers": ["ACYPAA", "WACYPAA", "OSYPAA", "ORCYPAA",
-// "ICYPAA"]   },   "31": {     "question": "In one word, describe AA coffee",
-//   "answers": ["Strong", "Cheap", "Gross / shitty / terrible", "Free",
-// "Gateway-drug"]   },   "32": {     "question": "Name an injury commonly
+
+//"question": "Name an injury commonly
 // sustained whilst intoxicated",     "answers": ["broken bone", "Sprain",
 // "bruise", "Black eye", "Head trauma"]   },   "33": {     "question": "Most
 // common excuse to not answer your phone",     "answers": ["In the bathroom /
