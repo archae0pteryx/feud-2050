@@ -23,12 +23,21 @@ html, body {
   color: var(--primary-color);
   text-align: center;
 }
+.menu {
+  position: fixed;
+  left: 0;
+  padding: 2rem;
+}
+#menu-btn {
+  background: transparent;
+  color: aliceblue;
+}
 .head {
   padding-top: 1rem;
 }
 .question {
-  padding: 1rem;
-  font-size: 3rem;
+  padding: 2rem;
+  font-size: 4rem;
 }
 .cell {
   background: var(--secondary-bg);
