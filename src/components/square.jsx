@@ -1,4 +1,5 @@
 import React from 'react'
+import Correct from '../assets/sounds/correct.mp3'
 export default class extends React.Component {
   componentWillMount() {
     this.setState({
@@ -23,6 +24,9 @@ export default class extends React.Component {
     }
     return (
       <div className="row">
+        <audio autoPlay>
+              <source src={Correct} type="audio/mpeg"/>
+            </audio>
           <div className="col">
             <div className="cell">
             <h3>{this.props.answer}</h3>

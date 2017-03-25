@@ -95,19 +95,19 @@ export const Round5 = {
   answers: [
     {
       id: 1,
-      ans: "Where am i?"
+      ans: "Anal cavity"
     }, {
       id: 2,
-      ans: "What did i do?"
+      ans: "Bra / Undies / Lala's"
     }, {
       id: 3,
-      ans: "Oh shit / fuck!"
+      ans: "Lockbox"
     }, {
       id: 4,
-      ans: "Who is that?"
+      ans: "In your pipe"
     }, {
       id: 5,
-      ans: "Not again"
+      ans: "Hole in the wall"
     }
   ]
 }
@@ -279,23 +279,158 @@ export const Round13 = {
     }
   ]
 }
+export const Round14 = {
+  question: "Name a city you think is most visited in the U.S.",
+  answers: [
+    {
+      id: 1,
+      ans: "NYC"
+    }, {
+      id: 2,
+      ans: "LA"
+    }, {
+      id: 3,
+      ans: "San Francisco"
+    }, {
+      id: 4,
+      ans: "Portland"
+    }, {
+      id: 5,
+      ans: "Las Vegas"
+    }
+  ]
+}
+export const Round15 = {
+  question: "Name something sticky",
+  answers: [
+    {
+      id: 1,
+      ans: "Semen"
+    }, {
+      id: 2,
+      ans: "Gum"
+    }, {
+      id: 3,
+      ans:  "Honey"
+    }, {
+      id: 4,
+      ans: "Glue"
+    }, {
+      id: 5,
+      ans: "Situations"
+    }
+  ]
+}
+export const Round16 = {
+  question: "Name something sticky",
+  answers: [
+    {
+      id: 1,
+      ans: "Support / Love / Something sticky"
+    }, {
+      id: 2,
+      ans: "Big Book"
+    }, {
+      id: 3,
+      ans: "Sponsor"
+    }, {
+      id: 4,
+      ans: "Willingness"
+    }, {
+      id: 5,
+      ans: "Desperation"
+    }
+  ]
+}
+export const Round17 = {
+  question: "Inappropriate place to occupy drunk",
+  answers: [
+    {
+      id: 1,
+      ans: "Church"
+    }, {
+      id: 2,
+      ans: "School"
+    }, {
+      id: 3,
+      ans: "Work"
+    }, {
+      id: 4,
+      ans: "Parents"
+    }, {
+      id: 5,
+      ans: "Senate hearing"
+    }
+  ]
+}
+export const Round18 = {
+  question: "Name a place that might have a waiting list",
+  answers: [
+    {
+      id: 1,
+      ans: "Restaurant"
+    }, {
+      id: 2,
+      ans: "Rehab"
+    }, {
+      id: 3,
+      ans: "College class"
+
+    }, {
+      id: 4,
+      ans: "Doctors office"
+    }, {
+      id: 5,
+      ans: "Heaven"
+    }
+  ]
+}
+export const Round19 = {
+  question: "Womans Name starting with the letter J",
+  answers: [
+    {
+      id: 1,
+      ans: "Jessica"
+    }, {
+      id: 2,
+      ans: "Julie"
+    }, {
+      id: 3,
+      ans: "Janet"
+
+    }, {
+      id: 4,
+      ans: "Jewel"
+    }, {
+      id: 5,
+      ans: "Jo Mama"
+    }
+  ]
+}
+export const Round20 = {
+  question: "Name a U.S. State that has big mountains",
+  answers: [
+    {
+      id: 1,
+      ans: "Colorado"
+    }, {
+      id: 2,
+      ans: "Oregon",
+    }, {
+      id: 3,
+      ans: "Montana"
+    }, {
+      id: 4,
+      ans: "California"
+    }, {
+      id: 5,
+      ans: "You mom"
+    }
+  ]
+}
 
 
-// ""question": ,     "answers": []   },   "13": {     "question": "Name a city you think is most
-// visited in the U.S.",     "answers": ["NYC", "LA", "San Francisco",
-// "Portland", "Las Vegas"]   },   "14": {     "question": "Name something
-// sticky",     "answers": ["Semen", "Gum", "Honey", "Glue", "Situations"]   },
-//  "15": {     "question": "Name something a newcomer needs most",
-// "answers": ["Support / Love / Something sticky", "Big Book", "Sponsor",
-// "Willingness", "Desperation"]   },   "16": {     "question": "Inappropriate
-// place to occupy drunk",     "answers": ["Church", "School", "Work",
-// "Parents", "Senate hearing"]   },   "17": {     "question": "Name a place
-// that might have a waiting list",     "answers": ["Restaurant", "Rehab",
-// "College class", "Doctors office", "Heaven"]   },   "18": {     "question":
-// "Womans Name starting with the letter J",     "answers": ["Jennifer / Jenny",
-// "Jessica", "Julie", "Janet", "Jewel"]   },   "19": {     "question": "Name a
-// U.S. State that has big mountains",     "answers": ["Colorado", "Oregon",
-// "Montana", "California", "You mom"]   },   "20": {     "question": "A
+//: ,     "answers": []   },   "20": {     "question": "A
 // preformer or group whos epic-ness spans generations",     "answers":
 // ["Beatles", "Rolling Stones", "Led Zepplin", "Aerosmith", "Why is Jimi not on
 // this list?!"]   },   "21": {     "question": "Name something that comes in
